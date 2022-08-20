@@ -1,0 +1,17 @@
+{
+  "name": "sass-i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include path scss/style.scss css/style.css"
+
+  },
+  "author": "JB-Bochio",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
